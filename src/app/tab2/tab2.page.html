@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      	Inspe&ccedil;&atilde;o<br />de recebimento
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-card class="welcome-card">
+      <ion-card-content>
+        <ion-item>
+          <ion-label>Data:</ion-label>
+          <ion-input type="text"><ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="myDate"></ion-datetime></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Usu&aacute;rio:</ion-label>
+          <ion-input type="text">Usu&aacute;rio teste</ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>OS:</ion-label>
+          <ion-input type="text">1233323</ion-input>
+        </ion-item>
+        <ion-tab-button tab="tab3">
+          <ion-button size="small" tab="tab2">Pr&otilde;ximo</ion-button>
+        </ion-tab-button>
+      </ion-card-content>
+    </ion-card>
+</ion-content>
